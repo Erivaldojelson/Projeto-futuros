@@ -1,0 +1,47 @@
+.navbar-brand > img {
+    height: 60px;
+}
+@media screen and (min-width: 768px) {
+     #nav-menu > .navbar-nav {
+        align-items: center;
+     }
+     
+}
+#nav-menu > .navbar-nav > .nav-item > .nav-link {
+    text-decoration: underline;
+}
+.nav-item {
+    margin-right: 20px; 
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.container-pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 80px; 
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center; 
+}
+
+.button-enviar {
+    background-color: rgb(40, 131, 236); 
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: flex;
+    color: rgb(250, 245, 245);
+    margin-top: 20px;
+}
